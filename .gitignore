@@ -1,0 +1,31 @@
+# --- Privacy: recordings and transcripts never go to GitHub ---
+recordings/*
+!recordings/.gitkeep
+transcripts/
+*.m4a
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.webm
+*.aac
+*.txt
+!requirements.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDEs
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
